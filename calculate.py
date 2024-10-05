@@ -7,6 +7,14 @@ funcs = ['perimeter', 'area']
 sizes = {}
 
 def calc(fig, func, size):
+    ''' Принимает 3 параметра:
+            1) fig - circle или square
+            2) funcs - функция которая будет применена - perimetr или area
+            3) size - размер в виде 1 значения
+    
+        Возвращает:
+             Результат вычесления функции для указанной фигуре в указанном размере
+    '''
 	assert fig in figs
 	assert func in funcs
 
